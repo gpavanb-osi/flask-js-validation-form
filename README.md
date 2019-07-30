@@ -15,5 +15,5 @@ Please contact [OSI Digital](http://www.osidigital.com) for any questions
 
 ## References
 
-This repo uses [Javascript-Validation-Example](https://github.com/gpavanb-osi/javascript-validation-example)
-
+* This repo uses [Javascript-Validation-Example](https://github.com/gpavanb-osi/javascript-validation-example)
+* Also check out the same functionality implemented using [Django](https://github.com/gpavanb-osi/django-js-validation-form)

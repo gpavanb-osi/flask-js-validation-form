@@ -5,13 +5,13 @@ print("Opened database successfully")
 
 query = """
 CREATE TABLE students (
-userid VARCHAR(12), 
+userid VARCHAR(12) NOT NULL UNIQUE, 
 password VARCHAR(12), 
 name TEXT, 
 address TEXT, 
 country VARCHAR(20),
 zipcode VARCHAR(10),
-email TEXT,
+email TEXT NOT NULL UNIQUE,
 sex VARCHAR(10),
 language TEXT,
 about TEXT)
